@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-05-14T09:41:29+00:00</updated><id>/feed.xml</id><entry><title type="html">Bootsrtap按钮</title><link href="/2024/05/14/Bootsrtap%E6%8C%89%E9%92%AE.html" rel="alternate" type="text/html" title="Bootsrtap按钮" /><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>/2024/05/14/Bootsrtap%E6%8C%89%E9%92%AE</id><content type="html" xml:base="/2024/05/14/Bootsrtap%E6%8C%89%E9%92%AE.html"><![CDATA[<!-- 标准的按钮 -->
+<p><button type="button" class="btn btn-default">默认按钮</button>
+<!-- 提供额外的视觉效果，标识一组按钮中的原始动作 -->
+<button type="button" class="btn btn-primary">原始按钮</button>
+<!-- 表示一个成功的或积极的动作 -->
+<button type="button" class="btn btn-success">成功按钮</button>
+<!-- 信息警告消息的上下文按钮 -->
+<button type="button" class="btn btn-info">信息按钮</button>
+<!-- 表示应谨慎采取的动作 -->
+<button type="button" class="btn btn-warning">警告按钮</button>
+<!-- 表示一个危险的或潜在的负面动作 -->
+<button type="button" class="btn btn-danger">危险按钮</button>
+<!-- 并不强调是一个按钮，看起来像一个链接，但同时保持按钮的行为 -->
+<button type="button" class="btn btn-link">链接按钮</button></p>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[默认按钮 原始按钮 成功按钮 信息按钮 警告按钮 危险按钮 链接按钮]]></summary></entry><entry><title type="html">Bootstrap代码</title><link href="/2024/05/14/Bootstrap%E4%BB%A3%E7%A0%81.html" rel="alternate" type="text/html" title="Bootstrap代码" /><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>/2024/05/14/Bootstrap%E4%BB%A3%E7%A0%81</id><content type="html" xml:base="/2024/05/14/Bootstrap%E4%BB%A3%E7%A0%81.html"><![CDATA[<p><code>&lt;header&gt;</code> 作为内联元素被包围。</p>
+<p>如果需要把代码显示为一个独立的块元素，请使用 &lt;pre&gt; 标签：</p>
+<pre>
+    &lt;article&gt;
+        &lt;h1&gt;Article Heading&lt;/h1&gt;
+    &lt;/article&gt;
+</pre>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[&lt;header&gt; 作为内联元素被包围。 如果需要把代码显示为一个独立的块元素，请使用 &lt;pre&gt; 标签： &lt;article&gt; &lt;h1&gt;Article Heading&lt;/h1&gt; &lt;/article&gt;]]></summary></entry><entry><title type="html">Bootstrap响应式实用工具</title><link href="/2024/05/14/Bootstrap%E5%93%8D%E5%BA%94%E5%BC%8F%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7.html" rel="alternate" type="text/html" title="Bootstrap响应式实用工具" /><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>/2024/05/14/Bootstrap%E5%93%8D%E5%BA%94%E5%BC%8F%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7</id><content type="html" xml:base="/2024/05/14/Bootstrap%E5%93%8D%E5%BA%94%E5%BC%8F%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7.html"><![CDATA[<div class="container" style="padding: 40px;">
+    <div class="row visible-on">
+        <div class="col-xs-6 col-sm-3" style="background-color: #dedef8;
+        box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+            <span class="hidden-xs">特别小型</span>
+            <span class="visible-xs">✔ 在特别小型设备上可见</span>
+        </div>
+        <div class="col-xs-6 col-sm-3" style="background-color: #dedef8;
+        box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+            <span class="hidden-sm">小型</span>
+            <span class="visible-sm">✔ 在小型设备上可见</span>
+        </div>
+        <div class="clearfix visible-xs"></div>
+        <div class="col-xs-6 col-sm-3" style="background-color: #dedef8;
+        box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+            <span class="hidden-md">中型</span>
+            <span class="visible-md">✔ 在中型设备上可见</span>
+        </div>
+        <div class="col-xs-6 col-sm-3" style="background-color: #dedef8;
+        box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+            <span class="hidden-lg">大型</span>
+            <span class="visible-lg">✔ 在大型设备上可见</span>
+        </div>
+    </div>
+</div>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[特别小型 ✔ 在特别小型设备上可见 小型 ✔ 在小型设备上可见 中型 ✔ 在中型设备上可见 大型 ✔ 在大型设备上可见]]></summary></entry><entry><title type="html">Bootstrap图片</title><link href="/2024/05/14/Bootstrap%E5%9B%BE%E7%89%87.html" rel="alternate" type="text/html" title="Bootstrap图片" /><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>/2024/05/14/Bootstrap%E5%9B%BE%E7%89%87</id><content type="html" xml:base="/2024/05/14/Bootstrap%E5%9B%BE%E7%89%87.html"><![CDATA[<p><img src="/wp-content/uploads/2014/06/download.png" class="img-rounded" />
+<img src="/wp-content/uploads/2014/06/download.png" class="img-circle" />
+<img src="/wp-content/uploads/2014/06/download.png" class="img-thumbnail" /></p>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Bootstrap排版</title><link href="/2024/05/14/Bootstrap%E6%8E%92%E7%89%88.html" rel="alternate" type="text/html" title="Bootstrap排版" /><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>/2024/05/14/Bootstrap%E6%8E%92%E7%89%88</id><content type="html" xml:base="/2024/05/14/Bootstrap%E6%8E%92%E7%89%88.html"><![CDATA[<p><small>本行内容是在标签内</small><br />
+<strong>本行内容是在标签内</strong><br />
+<em>本行内容是在标签内，并呈现为斜体</em><br /></p>
+<p class="text-left">向左对齐文本</p>
+<p class="text-center">居中对齐文本</p>
+<p class="text-right">向右对齐文本</p>
+<p class="text-muted">本行内容是减弱的</p>
+<p class="text-primary">本行内容带有一个 primary class</p>
+<p class="text-success">本行内容带有一个 success class</p>
+<p class="text-info">本行内容带有一个 info class</p>
+<p class="text-warning">本行内容带有一个 warning class</p>
+<p class="text-danger">本行内容带有一个 danger class</p>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[本行内容是在标签内 本行内容是在标签内 本行内容是在标签内，并呈现为斜体 向左对齐文本 居中对齐文本 向右对齐文本 本行内容是减弱的 本行内容带有一个 primary class 本行内容带有一个 success class 本行内容带有一个 info class 本行内容带有一个 warning class 本行内容带有一个 danger class]]></summary></entry><entry><title type="html">Bootstrap简介</title><link href="/2024/05/14/Bootstrap%E7%AE%80%E4%BB%8B.html" rel="alternate" type="text/html" title="Bootstrap简介" /><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>/2024/05/14/Bootstrap%E7%AE%80%E4%BB%8B</id><content type="html" xml:base="/2024/05/14/Bootstrap%E7%AE%80%E4%BB%8B.html"><![CDATA[<div class="container">
+  <div class="jumbotron">
+    <h1>我的第一个 Bootstrap 页面</h1>
+    <p>重置窗口大小，查看响应式效果！</p> 
+  </div>
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>Column 1</h3>
+      <p>学的不仅是技术，更是梦想！</p>
+      <p>再牛逼的梦想,也抵不住你傻逼似的坚持！</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 2</h3>
+      <p>学的不仅是技术，更是梦想！</p>
+      <p>再牛逼的梦想,也抵不住你傻逼似的坚持！</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Column 3</h3> 
+      <p>学的不仅是技术，更是梦想！</p>
+      <p>再牛逼的梦想,也抵不住你傻逼似的坚持！</p>
+    </div>
+  </div>
+</div>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[我的第一个 Bootstrap 页面 重置窗口大小，查看响应式效果！ Column 1 学的不仅是技术，更是梦想！ 再牛逼的梦想,也抵不住你傻逼似的坚持！ Column 2 学的不仅是技术，更是梦想！ 再牛逼的梦想,也抵不住你傻逼似的坚持！ Column 3 学的不仅是技术，更是梦想！ 再牛逼的梦想,也抵不住你傻逼似的坚持！]]></summary></entry><entry><title type="html">Bootstrap网格系统</title><link href="/2024/05/14/Bootstrap%E7%BD%91%E6%A0%BC%E7%B3%BB%E7%BB%9F.html" rel="alternate" type="text/html" title="Bootstrap网格系统" /><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>/2024/05/14/Bootstrap%E7%BD%91%E6%A0%BC%E7%B3%BB%E7%BB%9F</id><content type="html" xml:base="/2024/05/14/Bootstrap%E7%BD%91%E6%A0%BC%E7%B3%BB%E7%BB%9F.html"><![CDATA[<div class="container">
+    <div class="row">
+        <div class="col-xs-6 col-sm-3" style="background-color: #dedef8;
+            box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="col-xs-6 col-sm-3" style="background-color: #dedef8;box-shadow: 
+        inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+            nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+            eiusmod tempor incididunt ut. 
+            </p>
+        </div>
+ 
+        <div class="clearfix visible-xs"></div>
+ 
+        <div class="col-xs-6 col-sm-3" style="background-color: #dedef8;
+        box-shadow:inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+            laboris nisi ut aliquip ex ea commodo consequat. 
+            </p>
+        </div>
+        <div class="col-xs-6 col-sm-3" style="background-color: #dedef8;box-shadow: 
+        inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do 
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut 
+            enim ad minim 
+            </p>
+        </div>
+    </div>
+</div>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim]]></summary></entry><entry><title type="html">Bootstrap表单</title><link href="/2024/05/14/Bootstrap%E8%A1%A8%E5%8D%95.html" rel="alternate" type="text/html" title="Bootstrap表单" /><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>/2024/05/14/Bootstrap%E8%A1%A8%E5%8D%95</id><content type="html" xml:base="/2024/05/14/Bootstrap%E8%A1%A8%E5%8D%95.html"><![CDATA[<p><label for="name">默认的复选框和单选按钮的实例</label></p>
+<div class="checkbox">
+    <label><input type="checkbox" value="" />选项 1</label>
+</div>
+<div class="checkbox">
+    <label><input type="checkbox" value="" />选项 2</label>
+</div>
+<div class="radio">
+    <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="" /> 选项 1
+    </label>
+</div>
+<div class="radio">
+    <label>
+        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" />选项 2 - 选择它将会取消选择选项 1
+    </label>
+</div>
+<p><label for="name">内联的复选框和单选按钮的实例</label></p>
+<div>
+    <label class="checkbox-inline">
+        <input type="checkbox" id="inlineCheckbox1" value="option1" /> 选项 1
+    </label>
+    <label class="checkbox-inline">
+        <input type="checkbox" id="inlineCheckbox2" value="option2" /> 选项 2
+    </label>
+    <label class="checkbox-inline">
+        <input type="checkbox" id="inlineCheckbox3" value="option3" /> 选项 3
+    </label>
+    <label class="radio-inline">
+        <input type="radio" name="optionsRadiosinline" id="optionsRadios3" value="option1" checked="" /> 选项 1
+    </label>
+    <label class="radio-inline">
+        <input type="radio" name="optionsRadiosinline" id="optionsRadios4" value="option2" /> 选项 2
+    </label>
+</div>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[默认的复选框和单选按钮的实例 选项 1 选项 2 选项 1 选项 2 - 选择它将会取消选择选项 1 内联的复选框和单选按钮的实例 选项 1 选项 2 选项 3 选项 1 选项 2]]></summary></entry><entry><title type="html">Bootstrap表格</title><link href="/2024/05/14/Bootstrap%E8%A1%A8%E6%A0%BC.html" rel="alternate" type="text/html" title="Bootstrap表格" /><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>/2024/05/14/Bootstrap%E8%A1%A8%E6%A0%BC</id><content type="html" xml:base="/2024/05/14/Bootstrap%E8%A1%A8%E6%A0%BC.html"><![CDATA[<table class="table">
+  <caption>基本的表格布局</caption>
+  <thead>
+    <tr>
+      <th>名称</th>
+      <th>城市</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tanmay</td>
+      <td>Bangalore</td>
+    </tr>
+    <tr>
+      <td>Sachin</td>
+      <td>Mumbai</td>
+    </tr>
+  </tbody>
+</table>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[基本的表格布局 名称 城市 Tanmay Bangalore Sachin Mumbai]]></summary></entry><entry><title type="html">Bootstrap辅助类</title><link href="/2024/05/14/Bootstrap%E8%BE%85%E5%8A%A9%E7%B1%BB.html" rel="alternate" type="text/html" title="Bootstrap辅助类" /><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>/2024/05/14/Bootstrap%E8%BE%85%E5%8A%A9%E7%B1%BB</id><content type="html" xml:base="/2024/05/14/Bootstrap%E8%BE%85%E5%8A%A9%E7%B1%BB.html"><![CDATA[<p>插入符实例
+  <span class="caret"></span>
+</p>]]></content><author><name>jill</name></author><summary type="html"><![CDATA[插入符实例]]></summary></entry></feed>
